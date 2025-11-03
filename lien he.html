@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Liên hệ - Khoa CNTT</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <div class="brand">
+        <img src="assets/images/logo.png" alt="Logo khoa">
+        <h1>Khoa CNTT</h1>
+      </div>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <ul>
+          <li><a href="index.html">Trang chủ</a></li>
+          <li><a href="gioi-thieu.html">Giới thiệu</a></li>
+          <li>
+            <a href="#">Đào tạo ▾</a>
+            <ul class="sub-menu">
+              <li><a href="#">Đại học</a></li>
+              <li><a href="#">Thạc sĩ</a></li>
+              <li><a href="#">Ngắn hạn</a></li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Sinh viên ▾</a>
+            <ul class="sub-menu">
+              <li><a href="#">CLB</a></li>
+              <li><a href="#">Học bổng</a></li>
+              <li><a href="#">Việc làm</a></li>
+            </ul>
+          </li>
+          <li><a href="tin-tuc.html">Tin tức</a></li>
+          <li><a href="lien-he.html">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main container">
+    <section class="article-card">
+      <h2>Liên hệ với chúng tôi</h2>
+      <p class="muted">Vui lòng gửi thông tin, chúng tôi sẽ phản hồi sớm nhất có thể.</p>
+
+      <form action="#" method="post" style="margin-top:12px;">
+        <div class="form-group">
+          <label for="fullname">Họ và tên</label>
+          <input id="fullname" name="fullname" type="text" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+
+        <div class="form-group">
+          <label for="subject">Chủ đề</label>
+          <select id="subject" name="subject">
+            <option>Học bổng</option>
+            <option>Tuyển sinh</option>
+            <option>Hợp tác</option>
+            <option>Khác</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Nội dung</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+
+        <button type="submit" class="btn">Gửi</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div>© 2025 Khoa CNTT</div>
+      <div>Địa chỉ: Số X, Phố Y • Điện thoại: (04) 1234 5678</div>
+    </div>
+  </footer>
+</body>
+</html>
